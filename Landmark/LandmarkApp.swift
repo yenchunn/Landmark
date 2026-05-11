@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct LandmarkApp: App {
+    @State var landmarlDate = LandmarkViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
